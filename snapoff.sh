@@ -14,7 +14,7 @@ Pin: release o=LP-PPA-mozillateam
 Pin-Priority: 501
 EOF
 
-apt update && apt install firefox -y
+apt update && apt autoremove -y && apt install firefox -y
 
 echo -e '\n----- Welcome back to snap free ubuntu! -----\n'
 
